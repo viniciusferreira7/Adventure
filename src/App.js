@@ -1,11 +1,13 @@
-import './App.css';
+import Navbar from './components/Navbar';
+import './App.js';
 
-function App() {
-  return (
-    <div className="App">
-     <h1>Vincius</h1>
-    </div>
-  );
+function App(){
+
+  return(
+    <>
+      <Navbar/>
+    </>
+  )
+
 }
-
 export default App;
