@@ -4,8 +4,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 export const App = () => {
   return (
-    <Router>
-      <Navbar />
-    </Router >
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path={'/'} exact />
+        </Switch>
+      </Router >
+    </>
   )
 }
